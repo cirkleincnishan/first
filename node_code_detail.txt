@@ -1,0 +1,16 @@
+- create package.json : npm init
+
+- create node_module file : npm install express
+
+- get all detail from node server : npm view (library_name) like npm view underscroe version
+
+- install perticuler directory : npm install (you'r directory name)
+- uninstall perticuler directory : npm uninstall (you'r directory name)
+
+-if you want to install any different version of node in current project : npm install underscroe @(here write version name like (1.4.0))
+
+-if you want to show all npn directory version : npm outdated
+
+-if you want update all directory viersion : npm update 
+
+- if you want to get current file location and file name with path : __dirname (example here: console.log("location" + __dirname);) and __filename (example here: console.log("File Name" + __filename);)
